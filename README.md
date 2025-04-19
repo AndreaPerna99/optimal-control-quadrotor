@@ -76,8 +76,7 @@ Newton's method is used to minimize the cost function over state-input trajector
 ## 🎯 Control Strategies
 
 ### Newton's Method Tracking
-...
-![Optimal States LQR](./images/newton_STEP.png)
+![Optimal States LQR](./images/tracking_NM.png)
 
 ### LQR Trajectory Tracking
 **LQR**: Linearizes system around optimal trajectory with initial disturbances and computes feedback gains via Riccati equations.
@@ -85,30 +84,11 @@ Newton's method is used to minimize the cost function over state-input trajector
 
 ### MPC Trajectory Tracking
 **MPC**: Solves an online constrained optimization problem using CVXPY at each timestep with a receding horizon.
-![Optimal States MPC](./images/optimal_tracking_MPC.png)
+![Optimal States MPC](./images/tracking_MPC.png)
 ---
 
-## 📈 Key Results & Visualizations
+## 📈 Visualization
 
-Below are some of the most relevant results from the simulation:
-
-### 📌 System Model
-![Quadrotor Model](./images/quadrotor.png)
-
-### 📉 Cost Evolution
-![Cost Function](./images/cost.png)
-
-### 🎯 LQR Trajectory Tracking
-![Optimal States LQR](./images/optimal_f4_states_LQR.png)
-
-### 🤖 MPC Trajectory Tracking
-![Optimal States MPC](./images/optimal_f4_states_MPC.png)
-
-### 🧪 LQR Input Error
-![Input Errors LQR](./images/err_inputs_LQR.png)
-
-### 🌀 Simulation Snapshot
-![Animation Frame](./images/anim.png)
 
 📌 *Animations available during execution with `animations = True`.*
 
