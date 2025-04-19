@@ -76,7 +76,8 @@ Newton's method is used to minimize the cost function over state-input trajector
 ## 🎯 Control Strategies
 
 ### Newton's Method Tracking
-![Optimal States LQR](./images/tracking_NM.png)
+**Newton Method**: Computes the optimal open-loop state-input trajectory by minimizing a weighted cost function using iterative descent and Armijo line search.
+![Optimal States Newton](./images/tracking_NM.png)
 
 ### LQR Trajectory Tracking
 **LQR**: Linearizes system around optimal trajectory with initial disturbances and computes feedback gains via Riccati equations.
@@ -85,6 +86,7 @@ Newton's method is used to minimize the cost function over state-input trajector
 ### MPC Trajectory Tracking
 **MPC**: Solves an online constrained optimization problem using CVXPY at each timestep with a receding horizon.
 ![Optimal States MPC](./images/tracking_MPC.png)
+
 ---
 
 ## 📈 Visualization
