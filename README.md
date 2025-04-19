@@ -98,14 +98,14 @@ Newton's method is used to minimize the cost function over state-input trajector
 
 ## 👨‍🎓 Authors
 
-Group 1 – University of Bologna  
-- Andrea Perna  
+- Andrea Perna
 - Davide Corroppoli  
 - Riccardo Marras
+MSc Automation Engineering – University of Bologna
 
-**Course:** Optimal Control  
-**Professor:** Giuseppe Notarstefano  
-**Tutor:** Lorenzo Sforni
+## 👩‍🏫 Supervisors
+- Prof. Giuseppe Notarstefano  
+- Dr. Lorenzo Sforni
 
 ---
 
