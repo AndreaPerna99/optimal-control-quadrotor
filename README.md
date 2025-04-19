@@ -7,7 +7,7 @@ Optimal trajectory generation and tracking using Newton's method, LQR, and MPC.
 
 ## 🧠 About the Project
 
-This project focuses on the **design of an optimal feedback controller** for a planar quadrotor carrying a suspended load. It was developed as part of the final exam for the *Optimal Control* course at the University of Bologna, in the second year of the Master Degree in Automation Engineering.
+This project focuses on the **design of an optimal feedback controller** for a planar quadrotor carrying a suspended load. It was developed as part of the final exam for the *Optimal Control* course at the Master Degree in Automation Engineering, University of Bologna.
 
 We simulate the following phases:
 
