@@ -1,4 +1,4 @@
-# 🚁 Optimal Control of a Quadrotor with Suspended Load
+# Optimal Control of a Quadrotor with Suspended Load
 
 [![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)](https://www.python.org/)  
 Optimal trajectory generation and tracking using Newton's method, LQR, and MPC.
