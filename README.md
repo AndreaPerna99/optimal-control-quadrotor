@@ -101,6 +101,7 @@ Newton's method is used to minimize the cost function over state-input trajector
 - Andrea Perna
 - Davide Corroppoli  
 - Riccardo Marras
+
 MSc Automation Engineering – University of Bologna
 
 ## 👩‍🏫 Supervisors
