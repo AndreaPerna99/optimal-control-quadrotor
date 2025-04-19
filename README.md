@@ -32,9 +32,9 @@ Two types of references are supported:
 ┣ 📜 Dynamics.py                                 # System dynamics and Jacobians
 ┣ 📄 technical_report.pdf                        # Full technical report
 ┣ 📁 images/                                     # Simulation snapshots
-┃ ┣ 📷 trajectory_step.png
-┃ ┣ 📷 trajectory_smooth.png
-┃ ┗ 📷 tracking_mpc.png
+┃ ┣ 📷 trajectory_NM.png
+┃ ┣ 📷 tracking_LQR.png
+┃ ┗ 📷 tracking_MPC.png
 ```
 
 ---
@@ -75,9 +75,17 @@ Newton's method is used to minimize the cost function over state-input trajector
 
 ## 🎯 Control Strategies
 
-- **LQR**: Linearizes system around optimal trajectory and computes feedback gains via Riccati equations.
-- **MPC**: Solves an online constrained optimization problem using CVXPY at each timestep with a receding horizon.
+### Newton's Method Tracking
+...
+![Optimal States LQR](./images/newton_STEP.png)
 
+### LQR Trajectory Tracking
+**LQR**: Linearizes system around optimal trajectory with initial disturbances and computes feedback gains via Riccati equations.
+![Optimal States LQR](./images/tracking_LQR.png)
+
+### MPC Trajectory Tracking
+**MPC**: Solves an online constrained optimization problem using CVXPY at each timestep with a receding horizon.
+![Optimal States MPC](./images/optimal_tracking_MPC.png)
 ---
 
 ## 📈 Key Results & Visualizations
