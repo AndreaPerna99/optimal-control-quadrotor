@@ -25,17 +25,23 @@ Two types of references are supported:
 ## 🗂 Project Structure
 
 ```
-📦 quadrotor-optimal-control
-┣ 📜 Andrea_Perna3_Quadrotor_Project.py         # Main script
-┣ 📜 Parameters.yaml                             # Configuration file
-┣ 📜 RefCurve.py                                 # Reference generation (poly5, step, DoubleS)
-┣ 📜 Dynamics.py                                 # System dynamics and Jacobians
-┣ 📄 technical_report.pdf                        # Full technical report
-┣ 📁 images/                                     # Simulation snapshots
-┃ ┣ 📷 trajectory_NM.png
-┃ ┣ 📷 tracking_LQR.png
-┃ ┗ 📷 tracking_MPC.png
-┃ ┗ 📷 anim.png
+📦 optimal-control-quadrotor/
+├── 📁 code/                                  # Python source code for simulation and controllers
+│   ├── 💻 OPTCON_project.py                  # Main simulation script
+│   ├── 💻 Dynamics.py                        # Quadrotor dynamics and state model
+│   ├── 💻 cost.py                            # Cost function for optimization
+│   ├── 💻 RefCurve.py                        # Reference trajectory generators
+│   ├── 💻 Plot_functions.py                  # Utility functions for plots and animation
+│   ├── 💻 Visualization_drone.py            # Visualization module for drone and load
+│   ├── 💻 LQR_LTI_Solver.py                 # LQR feedback controller
+│   └── 💻 MPC_Solver.py                     # MPC controller using CVXPY
+├── 📁 images/                                # Selected result images for README
+│   ├── 📸 tracking_NM.png                   # Open-loop trajectory (Newton)
+│   ├── 📸 tracking_LQR.png                  # Closed-loop LQR tracking
+│   └── 📸 tracking_MPC.png                  # Closed-loop MPC tracking
+├── 📘 technical_report.pdf                   # Full academic technical report
+├── 📄 main_quadrotor.pdf                     # Initial template
+└── 📄 README.md                              # You are here!
 ```
 
 ---
