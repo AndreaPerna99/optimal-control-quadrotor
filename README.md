@@ -80,11 +80,27 @@ Newton's method is used to minimize the cost function over state-input trajector
 
 ---
 
-## 🎞️ Visual Results
+## 📈 Key Results & Visualizations
 
-| Step Trajectory | Smooth Trajectory | MPC Tracking |
-|-----------------|-------------------|--------------|
-| ![](./images/trajectory_step.png) | ![](./images/trajectory_smooth.png) | ![](./images/tracking_mpc.png) |
+Below are some of the most relevant results from the simulation:
+
+### 📌 System Model
+![Quadrotor Model](./img/quadrotor.png)
+
+### 📉 Cost Evolution
+![Cost Function](./img/cost.png)
+
+### 🎯 LQR Trajectory Tracking
+![Optimal States LQR](./img/optimal_f4_states_LQR.png)
+
+### 🤖 MPC Trajectory Tracking
+![Optimal States MPC](./img/optimal_f4_states_MPC.png)
+
+### 🧪 LQR Input Error
+![Input Errors LQR](./img/err_inputs_LQR.png)
+
+### 🌀 Simulation Snapshot
+![Animation Frame](./img/anim.png)
 
 📌 *Animations available during execution with `animations = True`.*
 
