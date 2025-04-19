@@ -32,13 +32,14 @@ Two types of references are supported:
 │   ├── 💻 cost.py                            # Cost function for optimization
 │   ├── 💻 RefCurve.py                        # Reference trajectory generators
 │   ├── 💻 Plot_functions.py                  # Utility functions for plots and animation
-│   ├── 💻 Visualization_drone.py            # Visualization module for drone and load
-│   ├── 💻 LQR_LTI_Solver.py                 # LQR feedback controller
-│   └── 💻 MPC_Solver.py                     # MPC controller using CVXPY
+│   ├── 💻 Visualization_drone.py             # Visualization module for drone and load
+│   ├── 💻 LQR_LTI_Solver.py                  # LQR feedback controller
+│   └── 💻 MPC_Solver.py                      # MPC controller using CVXPY
 ├── 📁 images/                                # Selected result images for README
-│   ├── 📸 tracking_NM.png                   # Open-loop trajectory (Newton)
-│   ├── 📸 tracking_LQR.png                  # Closed-loop LQR tracking
-│   └── 📸 tracking_MPC.png                  # Closed-loop MPC tracking
+│   ├── 📸 tracking_NM.png                    # Open-loop trajectory (Newton)
+│   ├── 📸 tracking_LQR.png                   # Closed-loop LQR tracking
+│   └── 📸 tracking_MPC.png                   # Closed-loop MPC tracking
+│   └── 📸 armijo_cost.png                    # Cost fallback with Armijo
 ├── 📘 technical_report.pdf                   # Full academic technical report
 ├── 📄 main_quadrotor.pdf                     # Initial template
 └── 📄 README.md                              # You are here!
@@ -77,7 +78,7 @@ Set the following variables in the `Parameters` section to run specific tasks:
 ## 📉 Cost Evolution
 
 Newton's method is used to minimize the cost function over state-input trajectories. Regularized Q and R matrices ensure convergence. Armijo backtracking is used for step size selection.
-
+![Armijo Cost](./images/armijo_cost.png)
 ---
 
 ## 🎯 Control Strategies
