@@ -35,6 +35,7 @@ Two types of references are supported:
 ┃ ┣ 📷 trajectory_NM.png
 ┃ ┣ 📷 tracking_LQR.png
 ┃ ┗ 📷 tracking_MPC.png
+┃ ┗ 📷 anim.png
 ```
 
 ---
@@ -89,9 +90,9 @@ Newton's method is used to minimize the cost function over state-input trajector
 
 ---
 
-## 📈 Visualization
+## 📈 Animation
 
-
+![Optimal States MPC](./images/anim.png)
 📌 *Animations available during execution with `animations = True`.*
 
 ---
