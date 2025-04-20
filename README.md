@@ -4,6 +4,11 @@
 Optimal trajectory generation and tracking using Newton's method, LQR, and MPC.
 
 ---
+## 📌 Project Info
+- 🎓 Course: Optimal Control
+- 🏫 University of Bologna
+- 📅 Year: 2024
+---
 
 ## 🧠 About the Project
 
