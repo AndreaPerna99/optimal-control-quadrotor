@@ -125,6 +125,7 @@ Solves an online constrained optimization problem using CVXPY at each timestep w
 - Davide Corroppoli  
 - Riccardo Marras
 
+📧 and.perna99@gmail.com
 MSc Automation Engineering – University of Bologna
 
 ## 👩‍🏫 Supervisors
